@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="fundo" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@FUNDO.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="umdois" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@1-2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="doistres" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@2-3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="doisnove" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@2-9.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="doisdez" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@2-10.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tresquatro" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@3-4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tresnove" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@3-9.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="trestreze" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@3-13.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="quatrocinco" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@4-5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="quatrooito" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@4-8.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="quatrotreze" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@4-13.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cincoseis" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@5-6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cincosete" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@5-7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cincooito" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@5-8.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oitonove" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@8-9.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="oitodoze" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@8-12.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="noveonze" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@9-11.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="trezequatorze" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@13-14.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="fieldPartida" alignment="CENTER" layoutX="36.0" layoutY="310.0" prefHeight="25.0" prefWidth="63.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Label fx:id="labelPartida" layoutX="36.0" layoutY="294.0" text="Partida:">
+         <font>
+            <Font name="Cocogoose" size="10.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fieldDestino" alignment="CENTER" layoutX="112.0" layoutY="310.0" prefHeight="25.0" prefWidth="63.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Label fx:id="labelDestino" layoutX="112.0" layoutY="294.0" text="Destino:">
+         <font>
+            <Font name="Cocogoose" size="10.0" />
+         </font>
+      </Label>
+      <Button fx:id="botaoIniciar" layoutX="75.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Iniciar">
+         <font>
+            <Font name="Cocogoose" size="10.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="labelTempo" layoutX="381.0" layoutY="349.0" prefHeight="16.0" prefWidth="121.0" text="Tempo do percurso:">
+         <font>
+            <Font name="Cocogoose" size="10.0" />
+         </font>
+      </Label>
+      <TextFlow fx:id="flowTempo" layoutX="502.0" layoutY="345.0" prefHeight="25.0" prefWidth="54.0" />
+   </children>
+</AnchorPane>
